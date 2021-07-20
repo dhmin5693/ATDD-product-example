@@ -1,6 +1,7 @@
 package min.study.atddproduct.presentation;
 
 import java.net.URI;
+import javax.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import min.study.atddproduct.service.ProductService;
 import org.springframework.http.ResponseEntity;
@@ -17,7 +18,7 @@ public class ProductController {
     private final ProductService productService;
 
     @PostMapping
-    public ResponseEntity<URI> createProduct(@RequestBody CreateProductRequest request) {
+    public ResponseEntity<URI> createProduct(@RequestBody @Valid CreateProductRequest request) {
         Long id = productService.createProduct(request.getName(),
                                                request.getPrice(),
                                                request.getInventory());

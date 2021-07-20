@@ -1,6 +1,7 @@
 package min.study.atddproduct;
 
 import io.restassured.RestAssured;
+import min.study.atddproduct.presentation.CreateProductRequest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;

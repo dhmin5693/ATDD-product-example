@@ -1,4 +1,4 @@
-package min.study.atddproduct;
+package min.study.atddproduct.presentation;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

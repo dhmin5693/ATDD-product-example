@@ -1,4 +1,4 @@
-package min.study.atddproduct;
+package min.study.atddproduct.domain;
 
 import java.time.LocalDateTime;
 import javax.persistence.Entity;

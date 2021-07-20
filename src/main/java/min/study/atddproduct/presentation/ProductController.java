@@ -1,7 +1,8 @@
-package min.study.atddproduct;
+package min.study.atddproduct.presentation;
 
 import java.net.URI;
 import lombok.RequiredArgsConstructor;
+import min.study.atddproduct.service.ProductService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

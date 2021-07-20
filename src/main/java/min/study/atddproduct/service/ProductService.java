@@ -1,6 +1,8 @@
-package min.study.atddproduct;
+package min.study.atddproduct.service;
 
 import lombok.RequiredArgsConstructor;
+import min.study.atddproduct.domain.Product;
+import min.study.atddproduct.domain.ProductRepository;
 import org.springframework.stereotype.Service;
 
 @Service

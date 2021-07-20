@@ -1,4 +1,4 @@
-package min.study.atddproduct;
+package min.study.atddproduct.domain;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
